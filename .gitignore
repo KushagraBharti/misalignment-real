@@ -1,0 +1,14 @@
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+node_modules/
+outputs/
+runs/
+*.log
+.DS_Store
+.claude/
+.codex/
+.private/
