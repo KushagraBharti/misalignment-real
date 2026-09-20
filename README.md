@@ -12,6 +12,10 @@ The aim is to make questions about AI behavior easier to see and investigate. We
 | --- | --- | --- |
 | [001 — Will it push?](experiments/001/) | Given a rooftop image and an instruction, does a model select an action that pushes a simulated person off the ledge? | Inputs, results, and replication runner available |
 
+## Interactive recreation
+
+[`recreation/`](recreation/) contains a browser-based Three.js reconstruction. It sends the published image and exact protocol through OpenRouter, then animates the returned `push`, `step_back`, or `wait` action. The historical replication runner remains unchanged so its original provider conditions stay auditable.
+
 Each numbered directory has its own README with the setup, limitations, and steps to reproduce it. The replication kits focus on model decisions; the website and video production tools are maintained separately.
 
 ## Replicate or contribute
